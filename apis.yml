@@ -1,8 +1,26 @@
 aid: netradyne
 name: Netradyne
-description: 'Netradyne is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: transportation. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Netradyne is a transportation technology company whose Driver·i platform
+  brings Edge AI and computer vision to commercial fleet safety and management. In-cab
+  camera systems capture 100% of drive time, analyze driving behavior in real time,
+  and drive the GreenZone Score, driver self-coaching, managed coaching, GPS tracking,
+  and vehicle alerts across trucking, delivery, construction, passenger transit, school
+  transportation, and other industries. Netradyne exposes a partner/developer API surface
+  (developer.netradyne.com, hosted on Stoplight, behind sign-in) plus a broad integrations
+  and installation-partner ecosystem, and publishes a security program certified to ISO
+  27001/27017/27018/27701 and HIPAA. Backed by SoftBank Vision Fund.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/691f9a539f7f4834f9f9995c/69698ab78671c782dfcdce16_681e8489de6bd665ab917ad9_71b33f703df1ca930e82831c29ab40c1_Netradyne_Home_Test_Hero.avif
 url: https://raw.githubusercontent.com/api-evangelist/netradyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,75 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Transportation
-apis: []
+- Fleet Safety
+- Fleet Management
+- Telematics
+- Computer Vision
+- Artificial Intelligence
+- Dash Cameras
+- Driver Coaching
+- IoT
+apis:
+- name: Netradyne Developer API
+  description: 'Netradyne partner/developer API, documented on a Stoplight-hosted
+    developer portal (sign-in required). Exposes fleet, driver, vehicle, safety-event,
+    and video-access data for integrating Driver·i telematics and safety intelligence
+    into fleet-management, TMS, insurance, and coaching systems.'
+  humanURL: https://developer.netradyne.com/
+  baseURL: ''
+  tags:
+  - Fleet Safety
+  - Telematics
+  - Transportation
+  properties:
+  - type: DeveloperPortal
+    url: https://developer.netradyne.com/
+  - type: Documentation
+    url: https://developer.netradyne.com/
+  - type: APIReference
+    url: https://developer.netradyne.com/
+common:
+- type: Website
+  url: https://www.netradyne.com/
+- type: DeveloperPortal
+  url: https://developer.netradyne.com/
+- type: Documentation
+  url: https://developer.netradyne.com/
+- type: APIReference
+  url: https://developer.netradyne.com/
+- type: Support
+  url: https://www.netradyne.com/resources/support
+- type: Community
+  url: https://www.netradyne.com/resources/community
+- type: Blog
+  url: https://www.netradyne.com/resources/blog
+- type: Pricing
+  url: https://www.netradyne.com/pricing
+- type: PrivacyPolicy
+  url: https://www.netradyne.com/legal/privacy
+- type: Security
+  url: https://www.netradyne.com/legal/security
+- type: TrustCenter
+  url: https://www.netradyne.com/legal/security
+- type: Compliance
+  url: https://www.netradyne.com/legal/security
+- type: TrustCenter
+  url: security/netradyne-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/netradyne-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/netradyne-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
