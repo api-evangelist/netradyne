@@ -9,6 +9,17 @@ description: 'Netradyne is a transportation technology company whose Driver·i p
   (developer.netradyne.com, hosted on Stoplight, behind sign-in) plus a broad integrations
   and installation-partner ecosystem, and publishes a security program certified to ISO
   27001/27017/27018/27701 and HIPAA. Backed by SoftBank Vision Fund.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
