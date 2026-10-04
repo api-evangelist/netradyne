@@ -48,7 +48,7 @@ tags:
 - Fleet Safety
 - Fleet Management
 - Telematics
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Dash Cameras
 - Driver Coaching
@@ -64,6 +64,7 @@ tags_raw:
 - Dash Cameras
 - Driver Coaching
 - IoT
+- Computer-Vision
 apis:
 - name: Netradyne Developer API
   description: 'Netradyne partner/developer API, documented on a Stoplight-hosted
