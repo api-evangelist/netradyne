@@ -85,6 +85,8 @@ apis:
   - type: APIReference
     url: https://developer.netradyne.com/
 common:
+- type: Plans
+  url: plans/netradyne-plans-pricing.yml
 - type: Website
   url: https://www.netradyne.com/
 - type: DeveloperPortal
